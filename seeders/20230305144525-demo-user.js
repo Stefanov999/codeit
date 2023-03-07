@@ -8,11 +8,12 @@ module.exports = {
       [
         {
           id: 1,
+          email: 'codeit@gmail.com',
           gender: 'Male',
-          password: 'stefanov',
-          email: 'gmailfaf@gmail.com',
+          password:
+            '$2a$10$cjZ.ZOOISbolUl05A4hDXO2btgmf8XH.oxzesekQNDwmmYwGgudB2',
           role: 'SuperAdmin',
-          nick: 'Tsvetan'
+          nick: 'codeit'
         }
       ],
       {}
@@ -20,15 +21,6 @@ module.exports = {
     await queryInterface.bulkInsert(
       'movies',
       [
-        {
-          id: 1,
-          email: 'codeit@gmail.com',
-          gender: 'Male',
-          password:
-            '$2a$10$cjZ.ZOOISbolUl05A4hDXO2btgmf8XH.oxzesekQNDwmmYwGgudB2',
-          role: 'SuperAdmin',
-          nick: 'codeit'
-        },
         {
           id: 2,
           title: 'Avatar',
@@ -72,6 +64,15 @@ module.exports = {
           img: ' 530KAG9P8Q.webp',
           article:
             'Indiana Jones is an American media franchise based on the adventures of Dr. Henry Walton "Indiana" Jones, Jr., a fictional professor of archaeology, that began in 1981 with the film Raiders of the Lost Ark. In 1984, a prequel, The Temple of Doom, was released, and in 1989, a sequel, The Last Crusade. A fourth film followed in 2008, titled The Kingdom of the Crystal Skull. A fifth film, titled The Dial of Destiny, is in production and is scheduled to be released in 2023. The series was created by George Lucas and stars Harrison Ford as Indiana Jones. The first four films were directed by Steven Spielberg, who worked closely with Lucas during their production.\r\n\r\nIn 1992, the franchise expanded to a television series with The Young Indiana Jones Chronicles, portraying the character in his childhood and youth, and including adventures with his parents.\r\n\r\nMarvel Comics began publishing The Further Adventures of Indiana Jones in 1983, and Dark Horse Comics gained the comic book rights to the character in 1991. Novelizations of the films have been published, as well as many novels with original adventures, including a series of German novels by Wolfgang Hohlbein, twelve novels set before the films published by Bantam Books, and a series set during the character\'s childhood inspired by the television show.\r\n\r\nNumerous Indiana Jones video games have been released since 1982.',
+          time: '7.03.2023 г.'
+        },
+        {
+          id: 1,
+          title: 'Gladiaotr',
+          author: 'Tsvetan',
+          img: ' TYZ18IZ7DJ.webp',
+          article:
+            "Gladiator is a 2000 epic historical drama film directed by Ridley Scott and written by David Franzoni, John Logan, and William Nicholson. The film was co-produced and released by DreamWorks Pictures and Universal Pictures. DreamWorks Pictures distributed the film in North America while Universal Pictures released it internationally through United International Pictures. It stars Russell Crowe, Joaquin Phoenix, Connie Nielsen, Ralf Möller, Oliver Reed (in his final role), Djimon Hounsou, Derek Jacobi, John Shrapnel, Richard Harris, and Tommy Flanagan. Crowe portrays Roman general Maximus Decimus Meridius, who is betrayed when Commodus, the ambitious son of Emperor Marcus Aurelius, murders his father and seizes the throne. Reduced to slavery, Maximus becomes a gladiator and rises through the ranks of the arena to avenge the murders of his family and his emperor.\r\n\r\nInspired by Daniel P. Mannix's 1958 book Those About to Die (formerly titled The Way of the Gladiator), the film's script, initially written by Franzoni, was acquired by DreamWorks and Ridley Scott signed on to direct the film. Principal photography, which began in January 1999 and wrapped up in May of that year, was known to have a set of problems due to the script being unfinished. Several of the cast complained about the writing quality throughout the nineteen week shoot in Fort Ricasoli, Malta, forcing many rewrites. Complications of the film's production were made worse when Reed died of a heart attack before production wrapped. British post-production company The Mill, who constructed the film's computer-generated imagery effects, had to create a digital body double for the remaining scenes involving Reed's character Proximo.\r\n\r\nDespite its troubled production, Gladiator was anticipated to be one of the year's most successful films. On its release, the film grossed over $460.5 million worldwide, becoming the second highest-grossing film of 2000 behind Mission: Impossible 2. Critics praised the acting (particularly Crowe's and Phoenix's performances), Scott's direction, visuals, screenplay, action sequences, musical score, and the production values, although its dark and brooding tone was criticized. Winning numerous accolades, Gladiator won five Academy Awards at the 73rd Academy Awards, including Best Picture and Best Actor for Crowe. Gladiator both revitalized or established the careers of its cast and crew, particularly elevating Crowe to",
           time: '7.03.2023 г.'
         }
       ],
